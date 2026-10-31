@@ -1,0 +1,19 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Python backend
+backend/.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Runtime data written by the backend (Zoho token cache, customer list, local price store, auth key).
+# Live data is in MongoDB; this folder is only a local fallback.
+backend/storage/*
+!backend/storage/.gitkeep

@@ -1,0 +1,119 @@
+[
+  {
+    "id": "user_aadhitiya",
+    "name": "Aadhitiya Lahoti",
+    "email": "aadhitiya@lahotioverseas.com",
+    "role": "admin",
+    "title": "Director & Head of Trading",
+    "passwordHint": "Aadhitiya@123",
+    "passwords": [
+      "Aadhitiya@123",
+      "Aadhitiyalahoti@123",
+      "aadhitiya@123"
+    ],
+    "avatarColor": "bg-indigo-600 text-white"
+  },
+  {
+    "id": "user_saurabh",
+    "name": "Saurabh Lahoti",
+    "email": "saurabh@lahotioverseas.com",
+    "role": "admin",
+    "title": "Managing Director & Admin",
+    "passwordHint": "Saurabh@123",
+    "passwords": [
+      "Saurabh@123",
+      "Saurabhlahoti@123",
+      "saurabh@123"
+    ],
+    "avatarColor": "bg-blue-600 text-white"
+  },
+  {
+    "id": "user_javier",
+    "name": "Javier Moreano (emp1)",
+    "email": "javier@lahotioverseas.com",
+    "role": "employee",
+    "title": "International Trade Specialist",
+    "passwordHint": "Javier@123 / Emp1@123",
+    "passwords": [
+      "Javier@123",
+      "Javiermoreano@123",
+      "javier@123",
+      "Emp1@123",
+      "emp1"
+    ],
+    "avatarColor": "bg-emerald-600 text-white"
+  },
+  {
+    "id": "user_mehadi",
+    "name": "Mehadi Hasan (emp2)",
+    "email": "mehadi@lahotioverseas.com",
+    "role": "employee",
+    "title": "Regional Sales & Operations",
+    "passwordHint": "Mehadi@123 / Emp2@123",
+    "passwords": [
+      "Mehadi@123",
+      "Mehedi@123",
+      "mehadihasan@123",
+      "mehadi@123",
+      "Emp2@123",
+      "emp2"
+    ],
+    "avatarColor": "bg-teal-600 text-white"
+  },
+  {
+    "id": "user_rashmi",
+    "name": "Rashmi Shishivkar",
+    "email": "rashmi@lahotioverseas.com",
+    "role": "employee",
+    "title": "Export Logistics & Costing",
+    "passwordHint": "Rashmi@123",
+    "passwords": [
+      "Rashmi@123",
+      "Rashmishishivkar@123",
+      "rashmi@123"
+    ],
+    "avatarColor": "bg-amber-600 text-white"
+  },
+  {
+    "id": "user_tusshar",
+    "name": "Tusshar Manekarr",
+    "email": "tusshar@lahotioverseas.com",
+    "role": "employee",
+    "title": "Yarn Trading Manager",
+    "passwordHint": "Tusshar@123",
+    "passwords": [
+      "Tusshar@123",
+      "Tushar@123",
+      "tussharmanekarr@123",
+      "tusshar@123"
+    ],
+    "avatarColor": "bg-violet-600 text-white"
+  },
+  {
+    "id": "user_avinash",
+    "name": "Avinash",
+    "email": "avinash@lahotioverseas.com",
+    "role": "employee",
+    "title": "Trade Operations Specialist",
+    "passwordHint": "Avinash@123",
+    "passwords": [
+      "Avinash@123",
+      "avinash@123"
+    ],
+    "avatarColor": "bg-cyan-600 text-white"
+  },
+  {
+    "id": "user_mahnaz",
+    "name": "Mahnaz Kausar Kausar",
+    "email": "mahnaz@lahotioverseas.com",
+    "role": "employee",
+    "title": "Client Relations & Documentation",
+    "passwordHint": "Mahnaz@123",
+    "passwords": [
+      "Mahnaz@123",
+      "Mahnazkausar@123",
+      "mahnaz@123"
+    ],
+    "avatarColor": "bg-rose-600 text-white"
+  }
+]

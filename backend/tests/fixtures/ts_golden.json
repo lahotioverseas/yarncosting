@@ -1,0 +1,1552 @@
+{
+  "costing": [
+    {
+      "input": {
+        "p_product_code": "COTTON",
+        "p_ex_mill": 338,
+        "p_origin": "Gujarat",
+        "p_destination": "Chittagong",
+        "p_fob_rate_id": 1,
+        "p_qty": 21000,
+        "p_bci": 0,
+        "p_margin_term_code": "LC_SIGHT",
+        "p_usd_inr": 95.4,
+        "p_eur_inr": 111.36
+      },
+      "output": {
+        "ex_mill_price": 338,
+        "qty_per_fcl": 21000,
+        "selected_freight_usd": 975,
+        "ddb_rodtep": 16.900000000000002,
+        "net_ex_mill": 321.1,
+        "fob_cost_per_kg": 3.3333333333333335,
+        "padded_rate": 95.9,
+        "freight_per_kg": 4.4525,
+        "total_cost": 328.8858333333333,
+        "usd_price": 3.5594824205101325,
+        "eur_price": 3.0493410822258142,
+        "eur_unavailable": false,
+        "commission_type": "PCT",
+        "commission_value": 0,
+        "commission_inr": 0,
+        "commission_usd": 0,
+        "effective_commission_pct": 0,
+        "target_calc": null,
+        "fx": {
+          "usd_inr": 95.4,
+          "eur_inr": 111.36,
+          "is_fallback": false,
+          "padded_usd_inr": 95.9,
+          "eur_unavailable": false
+        },
+        "assumptions": {
+          "ddb_rodtep_pct": 5,
+          "interest_comm_pct": 0,
+          "commission_type": "PCT",
+          "commission_value": 0,
+          "margin_pct": 3.25,
+          "fx_pad": 0.5,
+          "freight_surcharge": 25,
+          "target_buffer_factor": 1.05
+        }
+      }
+    },
+    {
+      "input": {
+        "p_product_code": "COTTON",
+        "p_ex_mill": 338,
+        "p_origin": "Gujarat",
+        "p_destination": "Chittagong",
+        "p_fob_rate_id": 1,
+        "p_qty": 21000,
+        "p_bci": 0,
+        "p_margin_term_code": "LC_SIGHT",
+        "p_usd_inr": 95.4,
+        "p_eur_inr": 111.36,
+        "p_target_usd": 2.93
+      },
+      "output": {
+        "ex_mill_price": 338,
+        "qty_per_fcl": 21000,
+        "selected_freight_usd": 975,
+        "ddb_rodtep": 16.900000000000002,
+        "net_ex_mill": 321.1,
+        "fob_cost_per_kg": 3.3333333333333335,
+        "padded_rate": 95.9,
+        "freight_per_kg": 4.4525,
+        "total_cost": 328.8858333333333,
+        "usd_price": 3.5594824205101325,
+        "eur_price": 3.0493410822258142,
+        "eur_unavailable": false,
+        "commission_type": "PCT",
+        "commission_value": 0,
+        "commission_inr": 0,
+        "commission_usd": 0,
+        "effective_commission_pct": 0,
+        "target_calc": {
+          "target_usd": 2.93,
+          "target_inr": 279.52200000000005,
+          "allowed_ex_mill": 271.73616666666675,
+          "with_buffer": 285.3229750000001,
+          "after_interest": 285.3229750000001,
+          "final_target": 276.0499783125001
+        },
+        "fx": {
+          "usd_inr": 95.4,
+          "eur_inr": 111.36,
+          "is_fallback": false,
+          "padded_usd_inr": 95.9,
+          "eur_unavailable": false
+        },
+        "assumptions": {
+          "ddb_rodtep_pct": 5,
+          "interest_comm_pct": 0,
+          "commission_type": "PCT",
+          "commission_value": 0,
+          "margin_pct": 3.25,
+          "fx_pad": 0.5,
+          "freight_surcharge": 25,
+          "target_buffer_factor": 1.05
+        }
+      }
+    },
+    {
+      "input": {
+        "p_product_code": "COTTON",
+        "p_ex_mill": 338,
+        "p_origin": "Gujarat",
+        "p_destination": "Chittagong",
+        "p_fob_rate_id": 1,
+        "p_qty": 21000,
+        "p_bci": 0,
+        "p_margin_term_code": "LC_SIGHT",
+        "p_usd_inr": 95.4,
+        "p_eur_inr": null
+      },
+      "output": {
+        "ex_mill_price": 338,
+        "qty_per_fcl": 21000,
+        "selected_freight_usd": 975,
+        "ddb_rodtep": 16.900000000000002,
+        "net_ex_mill": 321.1,
+        "fob_cost_per_kg": 3.3333333333333335,
+        "padded_rate": 95.9,
+        "freight_per_kg": 4.4525,
+        "total_cost": 328.8858333333333,
+        "usd_price": 3.5594824205101325,
+        "eur_price": null,
+        "eur_unavailable": true,
+        "commission_type": "PCT",
+        "commission_value": 0,
+        "commission_inr": 0,
+        "commission_usd": 0,
+        "effective_commission_pct": 0,
+        "target_calc": null,
+        "fx": {
+          "usd_inr": 95.4,
+          "eur_inr": null,
+          "is_fallback": false,
+          "padded_usd_inr": 95.9,
+          "eur_unavailable": true
+        },
+        "assumptions": {
+          "ddb_rodtep_pct": 5,
+          "interest_comm_pct": 0,
+          "commission_type": "PCT",
+          "commission_value": 0,
+          "margin_pct": 3.25,
+          "fx_pad": 0.5,
+          "freight_surcharge": 25,
+          "target_buffer_factor": 1.05
+        }
+      }
+    },
+    {
+      "input": {
+        "p_product_code": "COTTON",
+        "p_ex_mill": 338,
+        "p_origin": "Gujarat",
+        "p_destination": "Chittagong",
+        "p_fob_rate_id": 1,
+        "p_qty": 21000,
+        "p_bci": 0,
+        "p_margin_term_code": "LC_SIGHT",
+        "p_usd_inr": 90,
+        "p_eur_inr": 111.36
+      },
+      "output": {
+        "ex_mill_price": 338,
+        "qty_per_fcl": 21000,
+        "selected_freight_usd": 975,
+        "ddb_rodtep": 16.900000000000002,
+        "net_ex_mill": 321.1,
+        "fob_cost_per_kg": 3.3333333333333335,
+        "padded_rate": 90.5,
+        "freight_per_kg": 4.201785714285714,
+        "total_cost": 328.63511904761907,
+        "usd_price": 3.770175115740741,
+        "eur_price": 3.047016526730125,
+        "eur_unavailable": false,
+        "commission_type": "PCT",
+        "commission_value": 0,
+        "commission_inr": 0,
+        "commission_usd": 0,
+        "effective_commission_pct": 0,
+        "target_calc": null,
+        "fx": {
+          "usd_inr": 90,
+          "eur_inr": 111.36,
+          "is_fallback": false,
+          "padded_usd_inr": 90.5,
+          "eur_unavailable": false
+        },
+        "assumptions": {
+          "ddb_rodtep_pct": 5,
+          "interest_comm_pct": 0,
+          "commission_type": "PCT",
+          "commission_value": 0,
+          "margin_pct": 3.25,
+          "fx_pad": 0.5,
+          "freight_surcharge": 25,
+          "target_buffer_factor": 1.05
+        }
+      }
+    },
+    {
+      "input": {
+        "p_product_code": "COTTON",
+        "p_ex_mill": 338,
+        "p_origin": "Gujarat",
+        "p_destination": "Qingdao/SH",
+        "p_fob_rate_id": 1,
+        "p_qty": 21000,
+        "p_bci": 4.5,
+        "p_margin_term_code": "LC_60_DAYS",
+        "p_usd_inr": 95.4,
+        "p_eur_inr": 111.36,
+        "p_commission_value": 1.5,
+        "p_target_usd": 3.1
+      },
+      "output": {
+        "ex_mill_price": 338,
+        "qty_per_fcl": 21000,
+        "selected_freight_usd": 225,
+        "ddb_rodtep": 16.900000000000002,
+        "net_ex_mill": 321.1,
+        "fob_cost_per_kg": 3.3333333333333335,
+        "padded_rate": 95.9,
+        "freight_per_kg": 1.0275,
+        "total_cost": 325.4608333333333,
+        "usd_price": 3.605704074947589,
+        "eur_price": 3.0889382969647987,
+        "eur_unavailable": false,
+        "commission_type": "PCT",
+        "commission_value": 1.5,
+        "commission_inr": 4.949412499999999,
+        "commission_usd": 0.05188063417190775,
+        "effective_commission_pct": 1.5,
+        "target_calc": {
+          "target_usd": 3.1,
+          "target_inr": 295.74,
+          "allowed_ex_mill": 286.8791666666667,
+          "with_buffer": 301.2231250000001,
+          "after_interest": 296.7047781250001,
+          "final_target": 288.54539672656256
+        },
+        "fx": {
+          "usd_inr": 95.4,
+          "eur_inr": 111.36,
+          "is_fallback": false,
+          "padded_usd_inr": 95.9,
+          "eur_unavailable": false
+        },
+        "assumptions": {
+          "ddb_rodtep_pct": 5,
+          "interest_comm_pct": 1.5,
+          "commission_type": "PCT",
+          "commission_value": 1.5,
+          "margin_pct": 2.75,
+          "fx_pad": 0.5,
+          "freight_surcharge": 25,
+          "target_buffer_factor": 1.05
+        }
+      }
+    },
+    {
+      "input": {
+        "p_product_code": "COTTON",
+        "p_ex_mill": 338,
+        "p_origin": "Gujarat",
+        "p_destination": "Callao",
+        "p_fob_rate_id": 1,
+        "p_qty": 21000,
+        "p_bci": 0,
+        "p_margin_term_code": "LC_90_DAYS",
+        "p_usd_inr": 95.4,
+        "p_eur_inr": 111.36,
+        "p_commission_type": "USD_PER_KG",
+        "p_commission_value": 0.05,
+        "p_target_usd": 3.4
+      },
+      "output": {
+        "ex_mill_price": 338,
+        "qty_per_fcl": 21000,
+        "selected_freight_usd": 2925,
+        "ddb_rodtep": 16.900000000000002,
+        "net_ex_mill": 321.1,
+        "fob_cost_per_kg": 3.3333333333333335,
+        "padded_rate": 95.9,
+        "freight_per_kg": 13.3575,
+        "total_cost": 337.79083333333335,
+        "usd_price": 3.7501197152341015,
+        "eur_price": 3.2126564370809385,
+        "eur_unavailable": false,
+        "commission_type": "USD_PER_KG",
+        "commission_value": 0.05,
+        "commission_inr": 4.7700000000000005,
+        "commission_usd": 0.05,
+        "effective_commission_pct": 1.41211647247187,
+        "target_calc": {
+          "target_usd": 3.4,
+          "target_inr": 324.36,
+          "allowed_ex_mill": 307.6691666666667,
+          "with_buffer": 323.05262500000003,
+          "after_interest": 318.28262500000005,
+          "final_target": 303.95990687500006
+        },
+        "fx": {
+          "usd_inr": 95.4,
+          "eur_inr": 111.36,
+          "is_fallback": false,
+          "padded_usd_inr": 95.9,
+          "eur_unavailable": false
+        },
+        "assumptions": {
+          "ddb_rodtep_pct": 5,
+          "interest_comm_pct": 1.41211647247187,
+          "commission_type": "USD_PER_KG",
+          "commission_value": 0.05,
+          "margin_pct": 4.5,
+          "fx_pad": 0.5,
+          "freight_surcharge": 25,
+          "target_buffer_factor": 1.05
+        }
+      }
+    },
+    {
+      "input": {
+        "p_product_code": "COTTON",
+        "p_ex_mill": 338,
+        "p_origin": "Gujarat",
+        "p_destination": "Chittagong",
+        "p_fob_rate_id": 1,
+        "p_qty": 19500,
+        "p_bci": 0,
+        "p_margin_term_code": "LC_SIGHT",
+        "p_usd_inr": 95.4,
+        "p_eur_inr": 111.36,
+        "p_fob_amount": 125000,
+        "p_selected_freight_usd": 1830,
+        "p_freight_surcharge": 30
+      },
+      "output": {
+        "ex_mill_price": 338,
+        "qty_per_fcl": 19500,
+        "selected_freight_usd": 1830,
+        "ddb_rodtep": 16.900000000000002,
+        "net_ex_mill": 321.1,
+        "fob_cost_per_kg": 6.410256410256411,
+        "padded_rate": 95.9,
+        "freight_per_kg": 8.999846153846153,
+        "total_cost": 336.51010256410257,
+        "usd_price": 3.6419987515454495,
+        "eur_price": 3.120031258058871,
+        "eur_unavailable": false,
+        "commission_type": "PCT",
+        "commission_value": 0,
+        "commission_inr": 0,
+        "commission_usd": 0,
+        "effective_commission_pct": 0,
+        "target_calc": null,
+        "fx": {
+          "usd_inr": 95.4,
+          "eur_inr": 111.36,
+          "is_fallback": false,
+          "padded_usd_inr": 95.9,
+          "eur_unavailable": false
+        },
+        "assumptions": {
+          "ddb_rodtep_pct": 5,
+          "interest_comm_pct": 0,
+          "commission_type": "PCT",
+          "commission_value": 0,
+          "margin_pct": 3.25,
+          "fx_pad": 0.5,
+          "freight_surcharge": 30,
+          "target_buffer_factor": 1.05
+        }
+      }
+    },
+    {
+      "input": {
+        "p_product_code": "COTTON",
+        "p_ex_mill": "290.5",
+        "p_origin": "Gujarat",
+        "p_destination": "Chittagong",
+        "p_fob_rate_id": 9,
+        "p_qty": "20412",
+        "p_bci": 0,
+        "p_margin_term_code": "LC_SIGHT",
+        "p_usd_inr": 95.4,
+        "p_eur_inr": 111.36,
+        "p_base_freight_usd": 1200
+      },
+      "output": {
+        "ex_mill_price": 290.5,
+        "qty_per_fcl": 20412,
+        "selected_freight_usd": 1225,
+        "ddb_rodtep": 14.525,
+        "net_ex_mill": 275.975,
+        "fob_cost_per_kg": 8.279443464628649,
+        "padded_rate": 95.9,
+        "freight_per_kg": 5.755315500685871,
+        "total_cost": 290.0097589653145,
+        "usd_price": 3.138732454210558,
+        "eur_price": 2.6888925658377087,
+        "eur_unavailable": false,
+        "commission_type": "PCT",
+        "commission_value": 0,
+        "commission_inr": 0,
+        "commission_usd": 0,
+        "effective_commission_pct": 0,
+        "target_calc": null,
+        "fx": {
+          "usd_inr": 95.4,
+          "eur_inr": 111.36,
+          "is_fallback": false,
+          "padded_usd_inr": 95.9,
+          "eur_unavailable": false
+        },
+        "assumptions": {
+          "ddb_rodtep_pct": 5,
+          "interest_comm_pct": 0,
+          "commission_type": "PCT",
+          "commission_value": 0,
+          "margin_pct": 3.25,
+          "fx_pad": 0.5,
+          "freight_surcharge": 25,
+          "target_buffer_factor": 1.05
+        }
+      }
+    },
+    {
+      "input": {
+        "p_product_code": "COTTON",
+        "p_ex_mill": 338,
+        "p_origin": "Maharashtra",
+        "p_destination": "Hamburg",
+        "p_fob_rate_id": 1,
+        "p_qty": 21000,
+        "p_bci": 0,
+        "p_margin_term_code": "UNKNOWN",
+        "p_usd_inr": 95.4,
+        "p_eur_inr": 111.36,
+        "p_commission_pct": 2
+      },
+      "output": {
+        "ex_mill_price": 338,
+        "qty_per_fcl": 21000,
+        "selected_freight_usd": 2700,
+        "ddb_rodtep": 16.900000000000002,
+        "net_ex_mill": 321.1,
+        "fob_cost_per_kg": 3.3333333333333335,
+        "padded_rate": 95.9,
+        "freight_per_kg": 12.330000000000002,
+        "total_cost": 336.7633333333333,
+        "usd_price": 3.7065146750524107,
+        "eur_price": 3.1753008261494253,
+        "eur_unavailable": false,
+        "commission_type": "PCT",
+        "commission_value": 2,
+        "commission_inr": 6.735266666666667,
+        "commission_usd": 0.07060027952480782,
+        "effective_commission_pct": 2,
+        "target_calc": null,
+        "fx": {
+          "usd_inr": 95.4,
+          "eur_inr": 111.36,
+          "is_fallback": false,
+          "padded_usd_inr": 95.9,
+          "eur_unavailable": false
+        },
+        "assumptions": {
+          "ddb_rodtep_pct": 5,
+          "interest_comm_pct": 2,
+          "commission_type": "PCT",
+          "commission_value": 2,
+          "margin_pct": 3,
+          "fx_pad": 0.5,
+          "freight_surcharge": 25,
+          "target_buffer_factor": 1.05
+        }
+      }
+    }
+  ],
+  "yarnEngine": [
+    {
+      "input": {},
+      "output": {
+        "currency_code": "USD",
+        "container_capacity_kg": 21000,
+        "effective_fx_rate": 83.5,
+        "ex_mill_price_inr_per_kg": null,
+        "mill_freight_inr_per_kg": 0,
+        "packaging_cost_inr_per_kg": 0,
+        "yarn_base_cost_inr_per_kg": null,
+        "port_expense_inr_per_kg": null,
+        "interest_cost_inr_per_kg": null,
+        "gross_landed_cost_inr_per_kg": null,
+        "total_incentive_pct": 5,
+        "incentive_amount_inr_per_kg": null,
+        "fob_cost_inr_per_kg": null,
+        "agent_commission_inr_per_kg": null,
+        "ecgc_amount_inr_per_kg": 0,
+        "trader_margin_inr_per_kg": null,
+        "selling_fob_price_inr_per_kg": null,
+        "ocean_freight_inr_per_kg": 3.9,
+        "cfr_price_inr_per_kg": null,
+        "insurance_inr_per_kg": 0,
+        "cif_price_inr_per_kg": null,
+        "fob_cost_usd_per_kg": null,
+        "agent_commission_usd_per_kg": null,
+        "ecgc_amount_usd_per_kg": 0,
+        "trader_margin_usd_per_kg": null,
+        "selling_fob_price_usd_per_kg": null,
+        "ocean_freight_usd_per_kg": 0.0464,
+        "cfr_price_usd_per_kg": null,
+        "insurance_usd_per_kg": 0,
+        "cif_price_usd_per_kg": null,
+        "total_shipment_weight_kg": 21000,
+        "total_ex_mill_cost_inr": null,
+        "total_shipment_cost_inr": null,
+        "total_fob_revenue_usd": null,
+        "total_cif_revenue_usd": null,
+        "total_net_profit_inr": null,
+        "total_net_profit_usd": null,
+        "profit_margin_pct": 0,
+        "breakeven_ex_mill_inr_per_kg": null,
+        "breakeven_cif_usd_per_kg": null,
+        "selected_freight_usd": 975,
+        "ddb_rodtep": null,
+        "net_ex_mill": null,
+        "fob_cost_per_kg": null,
+        "padded_rate": 84,
+        "freight_per_kg": 3.9,
+        "total_cost": null,
+        "usd_price": null,
+        "eur_price": null,
+        "eur_unavailable": false,
+        "commission_type": "PCT",
+        "commission_value": 0,
+        "commission_inr": null,
+        "commission_usd": null,
+        "effective_commission_pct": 0,
+        "target_calc": {
+          "target_usd": 2.93,
+          "target_inr": 244.66,
+          "allowed_ex_mill": null,
+          "with_buffer": null,
+          "after_interest": null,
+          "final_target": null
+        },
+        "fx_sensitivity": [
+          {
+            "rate_shift": -2,
+            "fx_rate": 81.5,
+            "cif_price_usd": null,
+            "net_profit_usd": null
+          },
+          {
+            "rate_shift": -1,
+            "fx_rate": 82.5,
+            "cif_price_usd": null,
+            "net_profit_usd": null
+          },
+          {
+            "rate_shift": 0,
+            "fx_rate": 83.5,
+            "cif_price_usd": null,
+            "net_profit_usd": null
+          },
+          {
+            "rate_shift": 1,
+            "fx_rate": 84.5,
+            "cif_price_usd": null,
+            "net_profit_usd": null
+          },
+          {
+            "rate_shift": 2,
+            "fx_rate": 85.5,
+            "cif_price_usd": null,
+            "net_profit_usd": null
+          }
+        ],
+        "fx": {
+          "usd_inr": 83.5,
+          "eur_inr": 90.2,
+          "is_fallback": false,
+          "padded_usd_inr": 84,
+          "eur_unavailable": false
+        }
+      }
+    },
+    {
+      "input": {
+        "ex_mill_price_inr_per_kg": 338,
+        "container_capacity_kg": 21000,
+        "total_port_fob_expenses_inr": 70000,
+        "ocean_freight_usd": 950,
+        "base_fx_rate": 95.4,
+        "eur_inr": 111.36,
+        "trader_margin_pct": 3
+      },
+      "output": {
+        "currency_code": "USD",
+        "container_capacity_kg": 21000,
+        "effective_fx_rate": 95.4,
+        "ex_mill_price_inr_per_kg": 338,
+        "mill_freight_inr_per_kg": 0,
+        "packaging_cost_inr_per_kg": 0,
+        "yarn_base_cost_inr_per_kg": 338,
+        "port_expense_inr_per_kg": 3.33,
+        "interest_cost_inr_per_kg": 0,
+        "gross_landed_cost_inr_per_kg": 328.89,
+        "total_incentive_pct": 5,
+        "incentive_amount_inr_per_kg": 16.9,
+        "fob_cost_inr_per_kg": 3.33,
+        "agent_commission_inr_per_kg": 0,
+        "ecgc_amount_inr_per_kg": 0,
+        "trader_margin_inr_per_kg": 9.87,
+        "selling_fob_price_inr_per_kg": 338.75,
+        "ocean_freight_inr_per_kg": 4.45,
+        "cfr_price_inr_per_kg": 338.75,
+        "insurance_inr_per_kg": 0,
+        "cif_price_inr_per_kg": 338.75,
+        "fob_cost_usd_per_kg": 0.0349,
+        "agent_commission_usd_per_kg": 0,
+        "ecgc_amount_usd_per_kg": 0,
+        "trader_margin_usd_per_kg": 0.1034,
+        "selling_fob_price_usd_per_kg": 3.5509,
+        "ocean_freight_usd_per_kg": 0.0464,
+        "cfr_price_usd_per_kg": 3.5509,
+        "insurance_usd_per_kg": 0,
+        "cif_price_usd_per_kg": 3.5509,
+        "total_shipment_weight_kg": 21000,
+        "total_ex_mill_cost_inr": 7098000,
+        "total_shipment_cost_inr": 6906602.5,
+        "total_fob_revenue_usd": 74568.14,
+        "total_cif_revenue_usd": 74568.14,
+        "total_net_profit_inr": 207198.07,
+        "total_net_profit_usd": 2171.89,
+        "profit_margin_pct": 3,
+        "breakeven_ex_mill_inr_per_kg": 276.76,
+        "breakeven_cif_usd_per_kg": 3.4474,
+        "selected_freight_usd": 975,
+        "ddb_rodtep": 16.9,
+        "net_ex_mill": 321.1,
+        "fob_cost_per_kg": 3.33,
+        "padded_rate": 95.9,
+        "freight_per_kg": 4.45,
+        "total_cost": 328.89,
+        "usd_price": 3.5509,
+        "eur_price": 3.042,
+        "eur_unavailable": false,
+        "commission_type": "PCT",
+        "commission_value": 0,
+        "commission_inr": 0,
+        "commission_usd": 0,
+        "effective_commission_pct": 0,
+        "target_calc": {
+          "target_usd": 2.93,
+          "target_inr": 279.52,
+          "allowed_ex_mill": 271.74,
+          "with_buffer": 285.32,
+          "after_interest": 285.32,
+          "final_target": 276.76
+        },
+        "fx_sensitivity": [
+          {
+            "rate_shift": -2,
+            "fx_rate": 93.4,
+            "cif_price_usd": 3.6259,
+            "net_profit_usd": 2218.39
+          },
+          {
+            "rate_shift": -1,
+            "fx_rate": 94.4,
+            "cif_price_usd": 3.588,
+            "net_profit_usd": 2194.89
+          },
+          {
+            "rate_shift": 0,
+            "fx_rate": 95.4,
+            "cif_price_usd": 3.5509,
+            "net_profit_usd": 2171.89
+          },
+          {
+            "rate_shift": 1,
+            "fx_rate": 96.4,
+            "cif_price_usd": 3.5145,
+            "net_profit_usd": 2149.36
+          },
+          {
+            "rate_shift": 2,
+            "fx_rate": 97.4,
+            "cif_price_usd": 3.4789,
+            "net_profit_usd": 2127.29
+          }
+        ],
+        "fx": {
+          "usd_inr": 95.4,
+          "eur_inr": 111.36,
+          "is_fallback": false,
+          "padded_usd_inr": 95.9,
+          "eur_unavailable": false
+        }
+      }
+    },
+    {
+      "input": {
+        "ex_mill_price_inr_per_kg": 290,
+        "container_capacity_kg": 19500,
+        "total_port_fob_expenses_inr": 62000,
+        "ocean_freight_usd": 2900,
+        "base_fx_rate": 88.2,
+        "eur_inr": 0,
+        "commission_type": "USD_PER_KG",
+        "commission_value": 0.04,
+        "bci_org": 3,
+        "target_usd": 3.3,
+        "currency_code": "EUR"
+      },
+      "output": {
+        "currency_code": "EUR",
+        "container_capacity_kg": 19500,
+        "effective_fx_rate": 88.2,
+        "ex_mill_price_inr_per_kg": 290,
+        "mill_freight_inr_per_kg": 0,
+        "packaging_cost_inr_per_kg": 0,
+        "yarn_base_cost_inr_per_kg": 290,
+        "port_expense_inr_per_kg": 3.18,
+        "interest_cost_inr_per_kg": 3.53,
+        "gross_landed_cost_inr_per_kg": 291.98,
+        "total_incentive_pct": 5,
+        "incentive_amount_inr_per_kg": 14.5,
+        "fob_cost_inr_per_kg": 3.18,
+        "agent_commission_inr_per_kg": 3.53,
+        "ecgc_amount_inr_per_kg": 0,
+        "trader_margin_inr_per_kg": 8.85,
+        "selling_fob_price_inr_per_kg": 307.36,
+        "ocean_freight_inr_per_kg": 13.3,
+        "cfr_price_inr_per_kg": 307.36,
+        "insurance_inr_per_kg": 0,
+        "cif_price_inr_per_kg": 300.46,
+        "fob_cost_usd_per_kg": 0.036,
+        "agent_commission_usd_per_kg": 0.04,
+        "ecgc_amount_usd_per_kg": 0,
+        "trader_margin_usd_per_kg": 0.1003,
+        "selling_fob_price_usd_per_kg": 3.4848,
+        "ocean_freight_usd_per_kg": 0.15,
+        "cfr_price_usd_per_kg": 3.4066,
+        "insurance_usd_per_kg": 0,
+        "cif_price_usd_per_kg": 3.4066,
+        "total_shipment_weight_kg": 19500,
+        "total_ex_mill_cost_inr": 5655000,
+        "total_shipment_cost_inr": 5693697.5,
+        "total_fob_revenue_usd": 67954.19,
+        "total_cif_revenue_usd": 66427.99,
+        "total_net_profit_inr": 172565.92,
+        "total_net_profit_usd": 1956.53,
+        "profit_margin_pct": 3.03,
+        "breakeven_ex_mill_inr_per_kg": 273.18,
+        "breakeven_cif_usd_per_kg": 3.3105,
+        "selected_freight_usd": 2925,
+        "ddb_rodtep": 14.5,
+        "net_ex_mill": 275.5,
+        "fob_cost_per_kg": 3.18,
+        "padded_rate": 88.7,
+        "freight_per_kg": 13.3,
+        "total_cost": 291.98,
+        "usd_price": 3.4848,
+        "eur_price": 3.4066,
+        "eur_unavailable": false,
+        "commission_type": "USD_PER_KG",
+        "commission_value": 0.04,
+        "commission_inr": 3.53,
+        "commission_usd": 0.04,
+        "effective_commission_pct": 1.2,
+        "target_calc": {
+          "target_usd": 3.3,
+          "target_inr": 291.06,
+          "allowed_ex_mill": 271.58,
+          "with_buffer": 285.15,
+          "after_interest": 281.63,
+          "final_target": 273.18
+        },
+        "fx_sensitivity": [
+          {
+            "rate_shift": -2,
+            "fx_rate": 86.2,
+            "cif_price_usd": 3.5621,
+            "net_profit_usd": 2001.92
+          },
+          {
+            "rate_shift": -1,
+            "fx_rate": 87.2,
+            "cif_price_usd": 3.523,
+            "net_profit_usd": 1978.97
+          },
+          {
+            "rate_shift": 0,
+            "fx_rate": 88.2,
+            "cif_price_usd": 3.4848,
+            "net_profit_usd": 1956.53
+          },
+          {
+            "rate_shift": 1,
+            "fx_rate": 89.2,
+            "cif_price_usd": 3.4475,
+            "net_profit_usd": 1934.6
+          },
+          {
+            "rate_shift": 2,
+            "fx_rate": 90.2,
+            "cif_price_usd": 3.411,
+            "net_profit_usd": 1913.15
+          }
+        ],
+        "fx": {
+          "usd_inr": 88.2,
+          "eur_inr": 90.2,
+          "is_fallback": false,
+          "padded_usd_inr": 88.7,
+          "eur_unavailable": false
+        }
+      }
+    },
+    {
+      "input": {
+        "ex_mill_price_inr_per_kg": 310,
+        "total_port_fob_expenses_inr": 85000,
+        "ocean_freight_usd": null,
+        "base_fx_rate": 0,
+        "agent_commission_pct": 1.25,
+        "rodtep_rebate_pct": 4,
+        "currency_code": "EUR"
+      },
+      "output": {
+        "currency_code": "EUR",
+        "container_capacity_kg": 21000,
+        "effective_fx_rate": 83.5,
+        "ex_mill_price_inr_per_kg": 310,
+        "mill_freight_inr_per_kg": 0,
+        "packaging_cost_inr_per_kg": 0,
+        "yarn_base_cost_inr_per_kg": 310,
+        "port_expense_inr_per_kg": 4.05,
+        "interest_cost_inr_per_kg": 3.82,
+        "gross_landed_cost_inr_per_kg": 305.55,
+        "total_incentive_pct": 4,
+        "incentive_amount_inr_per_kg": 12.4,
+        "fob_cost_inr_per_kg": 4.05,
+        "agent_commission_inr_per_kg": 3.82,
+        "ecgc_amount_inr_per_kg": 0,
+        "trader_margin_inr_per_kg": 9.17,
+        "selling_fob_price_inr_per_kg": 318.53,
+        "ocean_freight_inr_per_kg": 3.9,
+        "cfr_price_inr_per_kg": 318.53,
+        "insurance_inr_per_kg": 0,
+        "cif_price_inr_per_kg": 294.87,
+        "fob_cost_usd_per_kg": 0.0485,
+        "agent_commission_usd_per_kg": 0.0457,
+        "ecgc_amount_usd_per_kg": 0,
+        "trader_margin_usd_per_kg": 0.1098,
+        "selling_fob_price_usd_per_kg": 3.8148,
+        "ocean_freight_usd_per_kg": 0.0464,
+        "cfr_price_usd_per_kg": 3.5314,
+        "insurance_usd_per_kg": 0,
+        "cif_price_usd_per_kg": 3.5314,
+        "total_shipment_weight_kg": 21000,
+        "total_ex_mill_cost_inr": 6510000,
+        "total_shipment_cost_inr": 6416500,
+        "total_fob_revenue_usd": 80110.19,
+        "total_cif_revenue_usd": 74159.66,
+        "total_net_profit_inr": 192495,
+        "total_net_profit_usd": 2305.33,
+        "profit_margin_pct": 3,
+        "breakeven_ex_mill_inr_per_kg": 238.07,
+        "breakeven_cif_usd_per_kg": 3.6593,
+        "selected_freight_usd": 975,
+        "ddb_rodtep": 12.4,
+        "net_ex_mill": 297.6,
+        "fob_cost_per_kg": 4.05,
+        "padded_rate": 84,
+        "freight_per_kg": 3.9,
+        "total_cost": 305.55,
+        "usd_price": 3.8148,
+        "eur_price": 3.5314,
+        "eur_unavailable": false,
+        "commission_type": "PCT",
+        "commission_value": 1.25,
+        "commission_inr": 3.82,
+        "commission_usd": 0.0457,
+        "effective_commission_pct": 1.25,
+        "target_calc": {
+          "target_usd": 2.93,
+          "target_inr": 244.66,
+          "allowed_ex_mill": 236.71,
+          "with_buffer": 248.54,
+          "after_interest": 245.44,
+          "final_target": 238.07
+        },
+        "fx_sensitivity": [
+          {
+            "rate_shift": -2,
+            "fx_rate": 81.5,
+            "cif_price_usd": 3.9072,
+            "net_profit_usd": 2361.9
+          },
+          {
+            "rate_shift": -1,
+            "fx_rate": 82.5,
+            "cif_price_usd": 3.8604,
+            "net_profit_usd": 2333.27
+          },
+          {
+            "rate_shift": 0,
+            "fx_rate": 83.5,
+            "cif_price_usd": 3.8148,
+            "net_profit_usd": 2305.33
+          },
+          {
+            "rate_shift": 1,
+            "fx_rate": 84.5,
+            "cif_price_usd": 3.7702,
+            "net_profit_usd": 2278.05
+          },
+          {
+            "rate_shift": 2,
+            "fx_rate": 85.5,
+            "cif_price_usd": 3.7267,
+            "net_profit_usd": 2251.4
+          }
+        ],
+        "fx": {
+          "usd_inr": 83.5,
+          "eur_inr": 90.2,
+          "is_fallback": false,
+          "padded_usd_inr": 84,
+          "eur_unavailable": false
+        }
+      }
+    }
+  ],
+  "freightRates": [
+    {
+      "origin": "Gujarat",
+      "destination": "Chittagong",
+      "output": {
+        "base_amount_usd": 950,
+        "surcharge": 25,
+        "selected_freight_usd": 975,
+        "origin": "Gujarat",
+        "available": true
+      }
+    },
+    {
+      "origin": "Gujarat",
+      "destination": "Santos",
+      "output": {
+        "base_amount_usd": 6800,
+        "surcharge": 25,
+        "selected_freight_usd": 6825,
+        "origin": "Gujarat",
+        "available": true
+      }
+    },
+    {
+      "origin": null,
+      "destination": "callao",
+      "output": {
+        "base_amount_usd": 2900,
+        "surcharge": 25,
+        "selected_freight_usd": 2925,
+        "origin": "Gujarat",
+        "available": true
+      }
+    },
+    {
+      "origin": "Chennai",
+      "destination": "Puerto quetzal",
+      "output": {
+        "base_amount_usd": 4065,
+        "surcharge": 25,
+        "selected_freight_usd": 4090,
+        "origin": "Chennai",
+        "available": true
+      }
+    },
+    {
+      "origin": "Gujarat",
+      "destination": "",
+      "output": {
+        "base_amount_usd": null,
+        "surcharge": 25,
+        "selected_freight_usd": null,
+        "origin": null,
+        "available": false
+      }
+    }
+  ],
+  "destinations": {
+    "Maharashtra": [
+      {
+        "destination": "Casablanca"
+      },
+      {
+        "destination": "Port Louis"
+      }
+    ],
+    "all": [
+      {
+        "destination": "Al Sokhna"
+      },
+      {
+        "destination": "Buenaventura"
+      },
+      {
+        "destination": "Callao"
+      },
+      {
+        "destination": "Casablanca"
+      },
+      {
+        "destination": "Cat Lai"
+      },
+      {
+        "destination": "Chittagong"
+      },
+      {
+        "destination": "Colombo"
+      },
+      {
+        "destination": "EL DEKHILA /Ale"
+      },
+      {
+        "destination": "Gdynia"
+      },
+      {
+        "destination": "Hamburg"
+      },
+      {
+        "destination": "Istanbul"
+      },
+      {
+        "destination": "Lazaro Cardenas"
+      },
+      {
+        "destination": "Lexious"
+      },
+      {
+        "destination": "Port Louis"
+      },
+      {
+        "destination": "Psair Gudang"
+      },
+      {
+        "destination": "Puerto quetzal"
+      },
+      {
+        "destination": "Qingdao/SH"
+      },
+      {
+        "destination": "Tunis"
+      },
+      {
+        "destination": "Wuhu"
+      }
+    ]
+  },
+  "origins": [
+    {
+      "origin": "Chennai"
+    },
+    {
+      "origin": "Gujarat"
+    },
+    {
+      "origin": "Maharashtra"
+    }
+  ],
+  "parsers": {
+    "matrix": {
+      "csv": "KNITTING YARNS,,,,,,,,,KH,Factory location ,CH,Factory location ,CCH,Factory location ,,\nNE 16/1 ,270,Gujrat,,,,,,\nNE 20/1,275,Gujrat,287,Gujrat,289,Gujrat,,\nNE 24/1,\"₹ 285\",Gujrat,298,Gujrat,299,Gujrat,,\nNE 50/1,,,,,400,Tamil Nadu,,,,,,,,,,\nWAEVING YARNS,,,,,,,,,KW,Factory location ,KCW,Factory location ,CCW,Factory location ,,\nNE 16/1 ,260,Nagpur,261,Nagpur,287,Maharastra,,\nNE 16/1 ,262,Nagpur,261,Nagpur,287,Maharastra,,\nDOUBLE YARNS,,,,,,,,,KW/KH SOFT TWIST,Factory location ,KW HARD TWIST,Factory location ,CH SOFT TWIST,Factory location ,CW HARD TWIST,Factory location \nNE 20/2,285,Nagpur,288,Nagpur,306,Gujrat,310,Maharastra\n\"NE 40/2\",,,,,384,\"Gujrat, West\",391,Maharastra",
+      "output": {
+        "records": [
+          {
+            "yarnCount": "NE 16/1",
+            "quality": "KH",
+            "category": "General",
+            "exMillPrice": null,
+            "factoryLocation": "Factory Location not available.",
+            "rawRow": 2
+          },
+          {
+            "yarnCount": "NE 16/1",
+            "quality": "CH",
+            "category": "General",
+            "exMillPrice": null,
+            "factoryLocation": "Factory Location not available.",
+            "rawRow": 2
+          },
+          {
+            "yarnCount": "NE 16/1",
+            "quality": "CCH",
+            "category": "General",
+            "exMillPrice": null,
+            "factoryLocation": "Factory Location not available.",
+            "rawRow": 2
+          },
+          {
+            "yarnCount": "NE 20/1",
+            "quality": "KH",
+            "category": "General",
+            "exMillPrice": null,
+            "factoryLocation": "Factory Location not available.",
+            "rawRow": 3
+          },
+          {
+            "yarnCount": "NE 20/1",
+            "quality": "CH",
+            "category": "General",
+            "exMillPrice": null,
+            "factoryLocation": "Factory Location not available.",
+            "rawRow": 3
+          },
+          {
+            "yarnCount": "NE 20/1",
+            "quality": "CCH",
+            "category": "General",
+            "exMillPrice": null,
+            "factoryLocation": "Factory Location not available.",
+            "rawRow": 3
+          },
+          {
+            "yarnCount": "NE 24/1",
+            "quality": "KH",
+            "category": "General",
+            "exMillPrice": null,
+            "factoryLocation": "Factory Location not available.",
+            "rawRow": 4
+          },
+          {
+            "yarnCount": "NE 24/1",
+            "quality": "CH",
+            "category": "General",
+            "exMillPrice": null,
+            "factoryLocation": "Factory Location not available.",
+            "rawRow": 4
+          },
+          {
+            "yarnCount": "NE 24/1",
+            "quality": "CCH",
+            "category": "General",
+            "exMillPrice": null,
+            "factoryLocation": "Factory Location not available.",
+            "rawRow": 4
+          },
+          {
+            "yarnCount": "NE 50/1",
+            "quality": "KH",
+            "category": "General",
+            "exMillPrice": null,
+            "factoryLocation": "Factory Location not available.",
+            "rawRow": 5
+          },
+          {
+            "yarnCount": "NE 50/1",
+            "quality": "CH",
+            "category": "General",
+            "exMillPrice": null,
+            "factoryLocation": "Factory Location not available.",
+            "rawRow": 5
+          },
+          {
+            "yarnCount": "NE 50/1",
+            "quality": "CCH",
+            "category": "General",
+            "exMillPrice": null,
+            "factoryLocation": "Factory Location not available.",
+            "rawRow": 5
+          },
+          {
+            "yarnCount": "NE 16/1",
+            "quality": "KW",
+            "category": "General",
+            "exMillPrice": null,
+            "factoryLocation": "Factory Location not available.",
+            "rawRow": 7
+          },
+          {
+            "yarnCount": "NE 16/1",
+            "quality": "KCW",
+            "category": "General",
+            "exMillPrice": null,
+            "factoryLocation": "Factory Location not available.",
+            "rawRow": 7
+          },
+          {
+            "yarnCount": "NE 16/1",
+            "quality": "CCW",
+            "category": "General",
+            "exMillPrice": null,
+            "factoryLocation": "Factory Location not available.",
+            "rawRow": 7
+          },
+          {
+            "yarnCount": "NE 16/1",
+            "quality": "KW",
+            "category": "General",
+            "exMillPrice": null,
+            "factoryLocation": "Factory Location not available.",
+            "rawRow": 8
+          },
+          {
+            "yarnCount": "NE 16/1",
+            "quality": "KCW",
+            "category": "General",
+            "exMillPrice": null,
+            "factoryLocation": "Factory Location not available.",
+            "rawRow": 8
+          },
+          {
+            "yarnCount": "NE 16/1",
+            "quality": "CCW",
+            "category": "General",
+            "exMillPrice": null,
+            "factoryLocation": "Factory Location not available.",
+            "rawRow": 8
+          },
+          {
+            "yarnCount": "NE 20/2",
+            "quality": "KW/KH SOFT TWIST",
+            "category": "General",
+            "exMillPrice": null,
+            "factoryLocation": "Factory Location not available.",
+            "rawRow": 10
+          },
+          {
+            "yarnCount": "NE 20/2",
+            "quality": "KW HARD TWIST",
+            "category": "General",
+            "exMillPrice": null,
+            "factoryLocation": "Factory Location not available.",
+            "rawRow": 10
+          },
+          {
+            "yarnCount": "NE 20/2",
+            "quality": "CH SOFT TWIST",
+            "category": "General",
+            "exMillPrice": null,
+            "factoryLocation": "Factory Location not available.",
+            "rawRow": 10
+          },
+          {
+            "yarnCount": "NE 20/2",
+            "quality": "CW HARD TWIST",
+            "category": "General",
+            "exMillPrice": null,
+            "factoryLocation": "Factory Location not available.",
+            "rawRow": 10
+          },
+          {
+            "yarnCount": "NE 40/2",
+            "quality": "KW/KH SOFT TWIST",
+            "category": "General",
+            "exMillPrice": null,
+            "factoryLocation": "Factory Location not available.",
+            "rawRow": 11
+          },
+          {
+            "yarnCount": "NE 40/2",
+            "quality": "KW HARD TWIST",
+            "category": "General",
+            "exMillPrice": null,
+            "factoryLocation": "Factory Location not available.",
+            "rawRow": 11
+          },
+          {
+            "yarnCount": "NE 40/2",
+            "quality": "CH SOFT TWIST",
+            "category": "General",
+            "exMillPrice": null,
+            "factoryLocation": "Factory Location not available.",
+            "rawRow": 11
+          },
+          {
+            "yarnCount": "NE 40/2",
+            "quality": "CW HARD TWIST",
+            "category": "General",
+            "exMillPrice": null,
+            "factoryLocation": "Factory Location not available.",
+            "rawRow": 11
+          }
+        ],
+        "uniqueCounts": [
+          "NE 16/1",
+          "NE 20/1",
+          "NE 24/1",
+          "NE 50/1",
+          "NE 20/2",
+          "NE 40/2"
+        ],
+        "duplicates": []
+      }
+    },
+    "flat": {
+      "csv": "Some title\nYarn Count,Quality,Ex-Mill Price (INR),Factory Location\nNE 30/1,KH,301.5,Gujrat\nNE 30/1,CH,,\nNE 32/1, CCH ,\"1,315\",Tamil   Nadu",
+      "output": {
+        "records": [
+          {
+            "yarnCount": "NE 30/1",
+            "quality": "KH",
+            "exMillPrice": 301.5,
+            "factoryLocation": "Gujrat",
+            "rawRow": 3
+          },
+          {
+            "yarnCount": "NE 30/1",
+            "quality": "CH",
+            "exMillPrice": null,
+            "factoryLocation": "Factory Location not available.",
+            "rawRow": 4
+          },
+          {
+            "yarnCount": "NE 32/1",
+            "quality": "CCH",
+            "exMillPrice": 1315,
+            "factoryLocation": "Tamil Nadu",
+            "rawRow": 5
+          }
+        ],
+        "uniqueCounts": [
+          "NE 30/1",
+          "NE 32/1"
+        ],
+        "duplicates": []
+      }
+    },
+    "fob": {
+      "csv": "Location,Price\nMundra,70000\nNorth,125000\nMaharastra,85000\nAndhra,95000\nTN,75000\nNagpur,125000\nPusad,125000\nBiratnagar 15 tons,\nKatmandu,\nBiratnagar 23 tons,\nBiratnagar 23 tons,\nkeytex,",
+      "output": {
+        "records": [
+          {
+            "location": "Mundra",
+            "price": 70000,
+            "rawRow": 2
+          },
+          {
+            "location": "North",
+            "price": 125000,
+            "rawRow": 3
+          },
+          {
+            "location": "Maharastra",
+            "price": 85000,
+            "rawRow": 4
+          },
+          {
+            "location": "Andhra",
+            "price": 95000,
+            "rawRow": 5
+          },
+          {
+            "location": "TN",
+            "price": 75000,
+            "rawRow": 6
+          },
+          {
+            "location": "Nagpur",
+            "price": 125000,
+            "rawRow": 7
+          },
+          {
+            "location": "Pusad",
+            "price": 125000,
+            "rawRow": 8
+          },
+          {
+            "location": "Biratnagar 15 tons",
+            "price": null,
+            "rawRow": 9
+          },
+          {
+            "location": "Katmandu",
+            "price": null,
+            "rawRow": 10
+          },
+          {
+            "location": "Biratnagar 23 tons",
+            "price": null,
+            "rawRow": 11
+          },
+          {
+            "location": "Biratnagar 23 tons",
+            "price": null,
+            "rawRow": 12
+          },
+          {
+            "location": "keytex",
+            "price": null,
+            "rawRow": 13
+          }
+        ],
+        "locations": [
+          "Mundra",
+          "North",
+          "Maharastra",
+          "Andhra",
+          "TN",
+          "Nagpur",
+          "Pusad",
+          "Biratnagar 15 tons",
+          "Katmandu",
+          "Biratnagar 23 tons",
+          "keytex"
+        ]
+      }
+    },
+    "freight": {
+      "csv": "FREIGHT,\nDestination Port,AMOUNT\nAI Sokhna,3600\nBuenaventura,\nCallao,\nCasablanca,\nCat Lai,\nChittagong,\nColombo,\nEL DEKHILA /Ale,\nGdynia,\nHamburg,\nIstanbul,\nLazaro Cardenas,\nLexious,\nPort Louis,\nPsair Gudang,\nPuerto quetzal,\nQingdao/SH,\nTunis,\nWuhu,",
+      "output": {
+        "records": [
+          {
+            "destination": "AI Sokhna",
+            "amount": 3600,
+            "rawRow": 3
+          },
+          {
+            "destination": "Buenaventura",
+            "amount": null,
+            "rawRow": 4
+          },
+          {
+            "destination": "Callao",
+            "amount": null,
+            "rawRow": 5
+          },
+          {
+            "destination": "Casablanca",
+            "amount": null,
+            "rawRow": 6
+          },
+          {
+            "destination": "Cat Lai",
+            "amount": null,
+            "rawRow": 7
+          },
+          {
+            "destination": "Chittagong",
+            "amount": null,
+            "rawRow": 8
+          },
+          {
+            "destination": "Colombo",
+            "amount": null,
+            "rawRow": 9
+          },
+          {
+            "destination": "EL DEKHILA /Ale",
+            "amount": null,
+            "rawRow": 10
+          },
+          {
+            "destination": "Gdynia",
+            "amount": null,
+            "rawRow": 11
+          },
+          {
+            "destination": "Hamburg",
+            "amount": null,
+            "rawRow": 12
+          },
+          {
+            "destination": "Istanbul",
+            "amount": null,
+            "rawRow": 13
+          },
+          {
+            "destination": "Lazaro Cardenas",
+            "amount": null,
+            "rawRow": 14
+          },
+          {
+            "destination": "Lexious",
+            "amount": null,
+            "rawRow": 15
+          },
+          {
+            "destination": "Port Louis",
+            "amount": null,
+            "rawRow": 16
+          },
+          {
+            "destination": "Psair Gudang",
+            "amount": null,
+            "rawRow": 17
+          },
+          {
+            "destination": "Puerto quetzal",
+            "amount": null,
+            "rawRow": 18
+          },
+          {
+            "destination": "Qingdao/SH",
+            "amount": null,
+            "rawRow": 19
+          },
+          {
+            "destination": "Tunis",
+            "amount": null,
+            "rawRow": 20
+          },
+          {
+            "destination": "Wuhu",
+            "amount": null,
+            "rawRow": 21
+          }
+        ],
+        "destinations": [
+          "AI Sokhna",
+          "Buenaventura",
+          "Callao",
+          "Casablanca",
+          "Cat Lai",
+          "Chittagong",
+          "Colombo",
+          "EL DEKHILA /Ale",
+          "Gdynia",
+          "Hamburg",
+          "Istanbul",
+          "Lazaro Cardenas",
+          "Lexious",
+          "Port Louis",
+          "Psair Gudang",
+          "Puerto quetzal",
+          "Qingdao/SH",
+          "Tunis",
+          "Wuhu"
+        ]
+      }
+    }
+  }
+}

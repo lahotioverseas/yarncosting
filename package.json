@@ -1,0 +1,12 @@
+{
+  "name": "remix-yarn-trading-costing",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "dev": "node scripts/dev.mjs",
+    "start": "node scripts/start.mjs",
+    "test": "node scripts/test.mjs",
+    "mongo:init": "node scripts/mongo-init.mjs"
+  }
+}

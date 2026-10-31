@@ -1,0 +1,10 @@
+# Not needed in the deployment (and must not be uploaded)
+.env
+.env.*
+!.env.example
+backend/.venv
+backend/storage
+backend/tests
+**/__pycache__
+frontend/node_modules
+frontend/dist

@@ -1,0 +1,976 @@
+import { SpreadsheetSheetData } from '../types';
+
+export const DEFAULT_PRICING_SNAPSHOT = {
+  "lastConfirmedDate": "2026-10-29",
+  "lastConfirmedAt": "2026-10-29T13:02:27.653Z",
+  "lastConfirmedBy": "Employee (EMP1)",
+  "confirmationType": "kept_previous",
+  "sheets": {
+    "yarn": {
+      "id": "yarn",
+      "name": "Yarn Ex-Mill Prices",
+      "description": "Daily Ex-Mill pricing for knitting, weaving, and double cotton yarns (₹/kg)",
+      "columns": [
+        {
+          "id": "yarnCount",
+          "name": "Yarn Count",
+          "type": "text",
+          "width": 140
+        },
+        {
+          "id": "quality",
+          "name": "Quality",
+          "type": "text",
+          "width": 120
+        },
+        {
+          "id": "category",
+          "name": "Category",
+          "type": "text",
+          "width": 160
+        },
+        {
+          "id": "exMillPrice",
+          "name": "Ex-Mill Price (₹/kg)",
+          "type": "number",
+          "width": 160
+        },
+        {
+          "id": "factoryLocation",
+          "name": "Factory Location",
+          "type": "text",
+          "width": 180
+        }
+      ],
+      "rows": [
+        {
+          "id": "yarn_row_1",
+          "yarnCount": "NE 16/1",
+          "quality": "KH ( KH - A)",
+          "category": "KNITTING YARNS",
+          "exMillPrice": 257,
+          "factoryLocation": "Gujrat"
+        },
+        {
+          "id": "yarn_row_2",
+          "yarnCount": "NE 16/1",
+          "quality": "CH (CH - A)",
+          "category": "KNITTING YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Gujrat"
+        },
+        {
+          "id": "yarn_row_3",
+          "yarnCount": "NE 16/1",
+          "quality": "CCH ( CH-A-CMPT)",
+          "category": "KNITTING YARNS",
+          "exMillPrice": 274,
+          "factoryLocation": "Tamil Nadu"
+        },
+        {
+          "id": "yarn_row_4",
+          "yarnCount": "NE 20/1",
+          "quality": "KH ( KH - A)",
+          "category": "KNITTING YARNS",
+          "exMillPrice": 261,
+          "factoryLocation": "Gujrat"
+        },
+        {
+          "id": "yarn_row_5",
+          "yarnCount": "NE 20/1",
+          "quality": "CH (CH - A)",
+          "category": "KNITTING YARNS",
+          "exMillPrice": 277,
+          "factoryLocation": "Gujrat"
+        },
+        {
+          "id": "yarn_row_6",
+          "yarnCount": "NE 20/1",
+          "quality": "CCH ( CH-A-CMPT)",
+          "category": "KNITTING YARNS",
+          "exMillPrice": 278,
+          "factoryLocation": "Gujrat"
+        },
+        {
+          "id": "yarn_row_7",
+          "yarnCount": "NE 24/1",
+          "quality": "KH ( KH - A)",
+          "category": "KNITTING YARNS",
+          "exMillPrice": 271,
+          "factoryLocation": "Gujrat"
+        },
+        {
+          "id": "yarn_row_8",
+          "yarnCount": "NE 24/1",
+          "quality": "CH (CH - A)",
+          "category": "KNITTING YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Gujrat"
+        },
+        {
+          "id": "yarn_row_9",
+          "yarnCount": "NE 24/1",
+          "quality": "CCH ( CH-A-CMPT)",
+          "category": "KNITTING YARNS",
+          "exMillPrice": 287,
+          "factoryLocation": "Gujrat"
+        },
+        {
+          "id": "yarn_row_10",
+          "yarnCount": "NE 26/1",
+          "quality": "KH ( KH - A)",
+          "category": "KNITTING YARNS",
+          "exMillPrice": 275,
+          "factoryLocation": "Gujrat"
+        },
+        {
+          "id": "yarn_row_11",
+          "yarnCount": "NE 26/1",
+          "quality": "CH (CH - A)",
+          "category": "KNITTING YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Gujrat"
+        },
+        {
+          "id": "yarn_row_12",
+          "yarnCount": "NE 26/1",
+          "quality": "CCH ( CH-A-CMPT)",
+          "category": "KNITTING YARNS",
+          "exMillPrice": 291,
+          "factoryLocation": "Gujrat"
+        },
+        {
+          "id": "yarn_row_13",
+          "yarnCount": "NE 28/1",
+          "quality": "KH ( KH - A)",
+          "category": "KNITTING YARNS",
+          "exMillPrice": 280,
+          "factoryLocation": "Gujrat"
+        },
+        {
+          "id": "yarn_row_14",
+          "yarnCount": "NE 28/1",
+          "quality": "CH (CH - A)",
+          "category": "KNITTING YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Gujrat"
+        },
+        {
+          "id": "yarn_row_15",
+          "yarnCount": "NE 28/1",
+          "quality": "CCH ( CH-A-CMPT)",
+          "category": "KNITTING YARNS",
+          "exMillPrice": 294,
+          "factoryLocation": "Gujrat"
+        },
+        {
+          "id": "yarn_row_16",
+          "yarnCount": "NE 30/1",
+          "quality": "KH ( KH - A)",
+          "category": "KNITTING YARNS",
+          "exMillPrice": 282,
+          "factoryLocation": "Gujrat"
+        },
+        {
+          "id": "yarn_row_17",
+          "yarnCount": "NE 30/1",
+          "quality": "CH (CH - A)",
+          "category": "KNITTING YARNS",
+          "exMillPrice": 294,
+          "factoryLocation": "Gujrat"
+        },
+        {
+          "id": "yarn_row_18",
+          "yarnCount": "NE 30/1",
+          "quality": "CCH ( CH-A-CMPT)",
+          "category": "KNITTING YARNS",
+          "exMillPrice": 296,
+          "factoryLocation": "Gujrat"
+        },
+        {
+          "id": "yarn_row_19",
+          "yarnCount": "NE 32/1",
+          "quality": "KH ( KH - A)",
+          "category": "KNITTING YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Gujrat"
+        },
+        {
+          "id": "yarn_row_20",
+          "yarnCount": "NE 32/1",
+          "quality": "CH (CH - A)",
+          "category": "KNITTING YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Factory Location not available."
+        },
+        {
+          "id": "yarn_row_21",
+          "yarnCount": "NE 32/1",
+          "quality": "CCH ( CH-A-CMPT)",
+          "category": "KNITTING YARNS",
+          "exMillPrice": 304,
+          "factoryLocation": "Gujrat"
+        },
+        {
+          "id": "yarn_row_22",
+          "yarnCount": "NE 34/1",
+          "quality": "KH ( KH - A)",
+          "category": "KNITTING YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Factory Location not available."
+        },
+        {
+          "id": "yarn_row_23",
+          "yarnCount": "NE 34/1",
+          "quality": "CH (CH - A)",
+          "category": "KNITTING YARNS",
+          "exMillPrice": 312,
+          "factoryLocation": "Factory Location not available."
+        },
+        {
+          "id": "yarn_row_24",
+          "yarnCount": "NE 34/1",
+          "quality": "CCH ( CH-A-CMPT)",
+          "category": "KNITTING YARNS",
+          "exMillPrice": 315,
+          "factoryLocation": "Gujrat"
+        },
+        {
+          "id": "yarn_row_25",
+          "yarnCount": "NE 36/1",
+          "quality": "KH ( KH - A)",
+          "category": "KNITTING YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Factory Location not available."
+        },
+        {
+          "id": "yarn_row_26",
+          "yarnCount": "NE 36/1",
+          "quality": "CH (CH - A)",
+          "category": "KNITTING YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Factory Location not available."
+        },
+        {
+          "id": "yarn_row_27",
+          "yarnCount": "NE 36/1",
+          "quality": "CCH ( CH-A-CMPT)",
+          "category": "KNITTING YARNS",
+          "exMillPrice": 322,
+          "factoryLocation": "Gujrat"
+        },
+        {
+          "id": "yarn_row_28",
+          "yarnCount": "NE 40/1",
+          "quality": "KH ( KH - A)",
+          "category": "KNITTING YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Factory Location not available."
+        },
+        {
+          "id": "yarn_row_29",
+          "yarnCount": "NE 40/1",
+          "quality": "CH (CH - A)",
+          "category": "KNITTING YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Factory Location not available."
+        },
+        {
+          "id": "yarn_row_30",
+          "yarnCount": "NE 40/1",
+          "quality": "CCH ( CH-A-CMPT)",
+          "category": "KNITTING YARNS",
+          "exMillPrice": 338,
+          "factoryLocation": "Gujrat"
+        },
+        {
+          "id": "yarn_row_31",
+          "yarnCount": "NE 50/1",
+          "quality": "KH ( KH - A)",
+          "category": "KNITTING YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Factory Location not available."
+        },
+        {
+          "id": "yarn_row_32",
+          "yarnCount": "NE 50/1",
+          "quality": "CH (CH - A)",
+          "category": "KNITTING YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Factory Location not available."
+        },
+        {
+          "id": "yarn_row_33",
+          "yarnCount": "NE 50/1",
+          "quality": "CCH ( CH-A-CMPT)",
+          "category": "KNITTING YARNS",
+          "exMillPrice": 385,
+          "factoryLocation": "Tamil Nadu"
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_28yt",
+          "yarnCount": "NE 16/1",
+          "quality": "KW (KW - A)",
+          "category": "WAEVING YARNS",
+          "exMillPrice": 248,
+          "factoryLocation": "Nagpur"
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_mx9x",
+          "yarnCount": "NE 16/1",
+          "quality": "KCW ( KW-A-CMPT)",
+          "category": "WAEVING YARNS",
+          "exMillPrice": 252,
+          "factoryLocation": "Nagpur"
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_qzak",
+          "yarnCount": "NE 16/1",
+          "quality": "CCW ( CW-A-CMPT)",
+          "category": "WAEVING YARNS",
+          "exMillPrice": 279,
+          "factoryLocation": "Maharastra"
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_p3v2",
+          "yarnCount": "NE 20/1",
+          "quality": "KW (KW - A)",
+          "category": "WAEVING YARNS",
+          "exMillPrice": 259,
+          "factoryLocation": "Nagpur"
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_3uzn",
+          "yarnCount": "NE 20/1",
+          "quality": "KCW ( KW-A-CMPT)",
+          "category": "WAEVING YARNS",
+          "exMillPrice": 262,
+          "factoryLocation": "Nagpur"
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_l0h5",
+          "yarnCount": "NE 20/1",
+          "quality": "CCW ( CW-A-CMPT)",
+          "category": "WAEVING YARNS",
+          "exMillPrice": 283,
+          "factoryLocation": "Maharastra"
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_pbkt",
+          "yarnCount": "NE 24/1",
+          "quality": "KW (KW - A)",
+          "category": "WAEVING YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Factory Location not available."
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_1tlw",
+          "yarnCount": "NE 24/1",
+          "quality": "KCW ( KW-A-CMPT)",
+          "category": "WAEVING YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Factory Location not available."
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_ilv1",
+          "yarnCount": "NE 24/1",
+          "quality": "CCW ( CW-A-CMPT)",
+          "category": "WAEVING YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Factory Location not available."
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_lyiw",
+          "yarnCount": "NE 26/1",
+          "quality": "KW (KW - A)",
+          "category": "WAEVING YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Factory Location not available."
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_gjw9",
+          "yarnCount": "NE 26/1",
+          "quality": "KCW ( KW-A-CMPT)",
+          "category": "WAEVING YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Factory Location not available."
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_ut00",
+          "yarnCount": "NE 26/1",
+          "quality": "CCW ( CW-A-CMPT)",
+          "category": "WAEVING YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Factory Location not available."
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_ffig",
+          "yarnCount": "NE 28/1",
+          "quality": "KW (KW - A)",
+          "category": "WAEVING YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Factory Location not available."
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_gl0x",
+          "yarnCount": "NE 28/1",
+          "quality": "KCW ( KW-A-CMPT)",
+          "category": "WAEVING YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Factory Location not available."
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_ffpy",
+          "yarnCount": "NE 28/1",
+          "quality": "CCW ( CW-A-CMPT)",
+          "category": "WAEVING YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Factory Location not available."
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_3dwp",
+          "yarnCount": "NE 30/1",
+          "quality": "KW (KW - A)",
+          "category": "WAEVING YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Factory Location not available."
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_ov13",
+          "yarnCount": "NE 30/1",
+          "quality": "KCW ( KW-A-CMPT)",
+          "category": "WAEVING YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Factory Location not available."
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_4d7e",
+          "yarnCount": "NE 30/1",
+          "quality": "CCW ( CW-A-CMPT)",
+          "category": "WAEVING YARNS",
+          "exMillPrice": 299,
+          "factoryLocation": "Maharastra"
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_nedq",
+          "yarnCount": "NE 32/1",
+          "quality": "KW (KW - A)",
+          "category": "WAEVING YARNS",
+          "exMillPrice": 294,
+          "factoryLocation": "Guntur"
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_7pbn",
+          "yarnCount": "NE 32/1",
+          "quality": "KCW ( KW-A-CMPT)",
+          "category": "WAEVING YARNS",
+          "exMillPrice": 295,
+          "factoryLocation": "Maharastra"
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_rasd",
+          "yarnCount": "NE 32/1",
+          "quality": "CCW ( CW-A-CMPT)",
+          "category": "WAEVING YARNS",
+          "exMillPrice": 310,
+          "factoryLocation": "Maharastra"
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_8466",
+          "yarnCount": "NE 34/1",
+          "quality": "KW (KW - A)",
+          "category": "WAEVING YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Factory Location not available."
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_87wy",
+          "yarnCount": "NE 34/1",
+          "quality": "KCW ( KW-A-CMPT)",
+          "category": "WAEVING YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Factory Location not available."
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_s2i8",
+          "yarnCount": "NE 34/1",
+          "quality": "CCW ( CW-A-CMPT)",
+          "category": "WAEVING YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Factory Location not available."
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_zdc0",
+          "yarnCount": "NE 36/1",
+          "quality": "KW (KW - A)",
+          "category": "WAEVING YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Factory Location not available."
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_whhq",
+          "yarnCount": "NE 36/1",
+          "quality": "KCW ( KW-A-CMPT)",
+          "category": "WAEVING YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Factory Location not available."
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_tplj",
+          "yarnCount": "NE 36/1",
+          "quality": "CCW ( CW-A-CMPT)",
+          "category": "WAEVING YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Factory Location not available."
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_etb5",
+          "yarnCount": "NE 40/1",
+          "quality": "KW (KW - A)",
+          "category": "WAEVING YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Factory Location not available."
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_as0c",
+          "yarnCount": "NE 40/1",
+          "quality": "KCW ( KW-A-CMPT)",
+          "category": "WAEVING YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Factory Location not available."
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_k8gl",
+          "yarnCount": "NE 40/1",
+          "quality": "CCW ( CW-A-CMPT)",
+          "category": "WAEVING YARNS",
+          "exMillPrice": 345,
+          "factoryLocation": "Maharastra"
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_9r0g",
+          "yarnCount": "NE 50/1",
+          "quality": "KW (KW - A)",
+          "category": "WAEVING YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Factory Location not available."
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_ec49",
+          "yarnCount": "NE 50/1",
+          "quality": "KCW ( KW-A-CMPT)",
+          "category": "WAEVING YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Factory Location not available."
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_kgds",
+          "yarnCount": "NE 50/1",
+          "quality": "CCW ( CW-A-CMPT)",
+          "category": "WAEVING YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Factory Location not available."
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_ugax",
+          "yarnCount": "NE 16/2",
+          "quality": "KW/KH SOFT TWIST ( KH - A)",
+          "category": "DOUBLE YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Factory Location not available."
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_bhd1",
+          "yarnCount": "NE 16/2",
+          "quality": "KW HARD TWIST (KW - A)",
+          "category": "DOUBLE YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Factory Location not available."
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_6y5u",
+          "yarnCount": "NE 16/2",
+          "quality": "CH SOFT TWIST (CH - A)",
+          "category": "DOUBLE YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Factory Location not available."
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_o7nu",
+          "yarnCount": "NE 16/2",
+          "quality": "CW HARD TWIST (CW - A)",
+          "category": "DOUBLE YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Factory Location not available."
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_6f6i",
+          "yarnCount": "NE 20/2",
+          "quality": "KW/KH SOFT TWIST ( KH - A)",
+          "category": "DOUBLE YARNS",
+          "exMillPrice": 275,
+          "factoryLocation": "Nagpur"
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_cug9",
+          "yarnCount": "NE 20/2",
+          "quality": "KW HARD TWIST (KW - A)",
+          "category": "DOUBLE YARNS",
+          "exMillPrice": 280,
+          "factoryLocation": "Nagpur"
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_2glt",
+          "yarnCount": "NE 20/2",
+          "quality": "CH SOFT TWIST (CH - A)",
+          "category": "DOUBLE YARNS",
+          "exMillPrice": 296,
+          "factoryLocation": "Gujrat"
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_j956",
+          "yarnCount": "NE 20/2",
+          "quality": "CW HARD TWIST (CW - A)",
+          "category": "DOUBLE YARNS",
+          "exMillPrice": 301,
+          "factoryLocation": "Maharastra"
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_nv1b",
+          "yarnCount": "NE 24/2",
+          "quality": "KW/KH SOFT TWIST ( KH - A)",
+          "category": "DOUBLE YARNS",
+          "exMillPrice": 289,
+          "factoryLocation": "Nagpur"
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_512m",
+          "yarnCount": "NE 24/2",
+          "quality": "KW HARD TWIST (KW - A)",
+          "category": "DOUBLE YARNS",
+          "exMillPrice": 294,
+          "factoryLocation": "Nagpur"
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_qd49",
+          "yarnCount": "NE 24/2",
+          "quality": "CH SOFT TWIST (CH - A)",
+          "category": "DOUBLE YARNS",
+          "exMillPrice": 308,
+          "factoryLocation": "Gujrat"
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_oh2d",
+          "yarnCount": "NE 24/2",
+          "quality": "CW HARD TWIST (CW - A)",
+          "category": "DOUBLE YARNS",
+          "exMillPrice": 313,
+          "factoryLocation": "Maharastra"
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_kaan",
+          "yarnCount": "NE 30/2",
+          "quality": "KW/KH SOFT TWIST ( KH - A)",
+          "category": "DOUBLE YARNS",
+          "exMillPrice": 305,
+          "factoryLocation": "Nagpur"
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_smlu",
+          "yarnCount": "NE 30/2",
+          "quality": "KW HARD TWIST (KW - A)",
+          "category": "DOUBLE YARNS",
+          "exMillPrice": 310,
+          "factoryLocation": "Nagpur"
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_kqhl",
+          "yarnCount": "NE 30/2",
+          "quality": "CH SOFT TWIST (CH - A)",
+          "category": "DOUBLE YARNS",
+          "exMillPrice": 325,
+          "factoryLocation": "Gujrat"
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_dbph",
+          "yarnCount": "NE 30/2",
+          "quality": "CW HARD TWIST (CW - A)",
+          "category": "DOUBLE YARNS",
+          "exMillPrice": 330,
+          "factoryLocation": "Maharastra"
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_f2dy",
+          "yarnCount": "NE 32/2",
+          "quality": "KW/KH SOFT TWIST ( KH - A)",
+          "category": "DOUBLE YARNS",
+          "exMillPrice": 308,
+          "factoryLocation": "Nagpur"
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_u1bk",
+          "yarnCount": "NE 32/2",
+          "quality": "KW HARD TWIST (KW - A)",
+          "category": "DOUBLE YARNS",
+          "exMillPrice": 313,
+          "factoryLocation": "Nagpur"
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_xgb3",
+          "yarnCount": "NE 32/2",
+          "quality": "CH SOFT TWIST (CH - A)",
+          "category": "DOUBLE YARNS",
+          "exMillPrice": 335,
+          "factoryLocation": "Gujrat"
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_njkp",
+          "yarnCount": "NE 32/2",
+          "quality": "CW HARD TWIST (CW - A)",
+          "category": "DOUBLE YARNS",
+          "exMillPrice": 341,
+          "factoryLocation": "Maharastra"
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_p19r",
+          "yarnCount": "NE 40/2",
+          "quality": "KW/KH SOFT TWIST ( KH - A)",
+          "category": "DOUBLE YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Factory Location not available."
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_1uc2",
+          "yarnCount": "NE 40/2",
+          "quality": "KW HARD TWIST (KW - A)",
+          "category": "DOUBLE YARNS",
+          "exMillPrice": null,
+          "factoryLocation": "Factory Location not available."
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_wr74",
+          "yarnCount": "NE 40/2",
+          "quality": "CH SOFT TWIST (CH - A)",
+          "category": "DOUBLE YARNS",
+          "exMillPrice": 375,
+          "factoryLocation": "Gujrat"
+        },
+        {
+          "id": "yarn_row_gs_1792829943587_hizv",
+          "yarnCount": "NE 40/2",
+          "quality": "CW HARD TWIST (CW - A)",
+          "category": "DOUBLE YARNS",
+          "exMillPrice": 384,
+          "factoryLocation": "Maharastra"
+        }
+      ]
+    },
+    "fob": {
+      "id": "fob",
+      "name": "FOB Direct Rates",
+      "description": "Factory and inland terminal direct container transport charges to Mundra/Port (₹/FCL)",
+      "columns": [
+        {
+          "id": "location",
+          "name": "Port / Mill Location",
+          "type": "text",
+          "width": 220
+        },
+        {
+          "id": "price",
+          "name": "FOB Cost (₹/container)",
+          "type": "number",
+          "width": 200
+        }
+      ],
+      "rows": [
+        {
+          "id": "fob_row_1",
+          "location": "Mundra",
+          "price": 72000
+        },
+        {
+          "id": "fob_row_2",
+          "location": "North",
+          "price": 125000
+        },
+        {
+          "id": "fob_row_3",
+          "location": "Maharastra",
+          "price": 85000
+        },
+        {
+          "id": "fob_row_4",
+          "location": "Andhra",
+          "price": 95000
+        },
+        {
+          "id": "fob_row_5",
+          "location": "TN",
+          "price": 75000
+        },
+        {
+          "id": "fob_row_6",
+          "location": "Nagpur",
+          "price": 125000
+        },
+        {
+          "id": "fob_row_7",
+          "location": "Pusad",
+          "price": 125000
+        },
+        {
+          "id": "fob_row_8",
+          "location": "Biratnagar 15 tons",
+          "price": 3000
+        },
+        {
+          "id": "fob_row_9",
+          "location": "Katmandu",
+          "price": 200
+        },
+        {
+          "id": "fob_row_10",
+          "location": "Biratnagar 23 tons",
+          "price": 20
+        },
+        {
+          "id": "fob_row_10",
+          "location": "Biratnagar 23 tons",
+          "price": 20
+        },
+        {
+          "id": "fob_row_12",
+          "location": "keytex",
+          "price": 130000
+        }
+      ]
+    },
+    "freight": {
+      "id": "freight",
+      "name": "Ocean Freight Rates",
+      "description": "Port of Discharge (POD) container rates from Mundra (USD/40' HC)",
+      "columns": [
+        {
+          "id": "destination",
+          "name": "Destination Port",
+          "type": "text",
+          "width": 220
+        },
+        {
+          "id": "amount",
+          "name": "Freight(USD)",
+          "type": "number",
+          "width": 220
+        }
+      ],
+      "rows": [
+        {
+          "id": "freight_row_1",
+          "destination": "AI Sokhna",
+          "amount": 5025
+        },
+        {
+          "id": "freight_row_2",
+          "destination": "Buenaventura",
+          "amount": 5150
+        },
+        {
+          "id": "freight_row_3",
+          "destination": "Callao",
+          "amount": 5150
+        },
+        {
+          "id": "freight_row_4",
+          "destination": "Casablanca",
+          "amount": 4800
+        },
+        {
+          "id": "freight_row_5",
+          "destination": "Cat Lai",
+          "amount": 150
+        },
+        {
+          "id": "freight_row_6",
+          "destination": "Chittagong",
+          "amount": 1175
+        },
+        {
+          "id": "freight_row_7",
+          "destination": "Colombo",
+          "amount": 500
+        },
+        {
+          "id": "freight_row_8",
+          "destination": "EL DEKHILA /Alexandria",
+          "amount": 4500
+        },
+        {
+          "id": "freight_row_9",
+          "destination": "Gdynia",
+          "amount": 3900
+        },
+        {
+          "id": "freight_row_10",
+          "destination": "Hamburg",
+          "amount": 3600
+        },
+        {
+          "id": "freight_row_11",
+          "destination": "Istanbul",
+          "amount": 4350
+        },
+        {
+          "id": "freight_row_12",
+          "destination": "Lazaro Cardenas",
+          "amount": 5650
+        },
+        {
+          "id": "freight_row_13",
+          "destination": "Lexious",
+          "amount": 4200
+        },
+        {
+          "id": "freight_row_14",
+          "destination": "Port Louis",
+          "amount": 5150
+        },
+        {
+          "id": "freight_row_15",
+          "destination": "Psair Gudang",
+          "amount": 200
+        },
+        {
+          "id": "freight_row_16",
+          "destination": "Puerto quetzal",
+          "amount": 6700
+        },
+        {
+          "id": "freight_row_17",
+          "destination": "Qingdao/Shangahi",
+          "amount": 100
+        },
+        {
+          "id": "freight_row_18",
+          "destination": "Tunis",
+          "amount": 4800
+        },
+        {
+          "id": "freight_row_19",
+          "destination": "Wuhu",
+          "amount": 200
+        },
+        {
+          "id": "freight_row_20",
+          "destination": "Santos",
+          "amount": 6800
+        },
+        {
+          "id": "freight_row_21",
+          "destination": "FOB",
+          "amount": 1
+        }
+      ]
+    }
+  }
+};

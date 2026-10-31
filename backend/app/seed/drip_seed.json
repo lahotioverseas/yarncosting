@@ -1,0 +1,365 @@
+{
+  "templates": [
+    {
+      "step": 1,
+      "name": "1st Mail - Initial Sourcing Intro & Details Request",
+      "subject": "Quality Cotton Yarns & Fabrics for [Company Name]",
+      "delayDays": 0,
+      "triggerCondition": "Immediate when status is New Lead",
+      "bodyTemplate": "Hi [Lead Name],\n\nI hope this email finds you well.\n\nI am reaching out from Lahoti Overseas Limited, one of India's leading exporters of high-quality textile raw materials, cotton yarns, synthetic yarns, and fabrics. Since 1990, we have been partnering with global textile manufacturers to supply high quality yarns to greige knitted, woven, and denim fabrics.\n\nBecause you handle high-quality textile production, I wanted to see if we could help streamline your supply chain with our spinning and weaving capabilities.\n\nTo help us share the most relevant counts, fabric specifications, and competitive pricing for your market, could you please share a few quick details with us?\n\nContact Person Responsible Name: [Contact Person]\nDirect Email ID: [Direct Email]\nPhone No/ Whats App: [Phone / WhatsApp]\nYarn Counts / Fabric Items you buy: [Yarn Counts / Items]\nApproximate Quantity (per month): [Quantity per month]\nRequired Destination Port (CNF): [Destination Port]\n\nAlternatively, if you are not the person handling sourcing, I would truly appreciate it if you could point me toward the right contact.\n\nThank you for your time, and I look forward to the possibility of working together.\n\nBest regards,\n[Sender Name]\nLahoti Overseas Limited\nExports Division | Mumbai, India"
+    },
+    {
+      "step": 2,
+      "name": "2nd Mail - 4-Day Follow-up & Value Proposition",
+      "subject": "Re: Quality Cotton Yarns & Fabrics for [Company Name] / Reliable Global Supply",
+      "delayDays": 4,
+      "triggerCondition": "If no reply/response in 4 days after 1st mail",
+      "bodyTemplate": "Hi [Prospect Name],\n\nI know how busy things get, so I wanted to quickly surface this in your inbox.\n\nI understand you likely have existing supply chains, but given our 25+ years of experience exporting premium Indian cotton yarns and fabrics globally, I am confident we can offer competitive pricing or better lead times for your production.\n\nIf you have a quick moment, could you let me know your required yarn counts/items and your preferred destination port? We'd be delighted to prepare an instant spot CNF quote for your evaluation.\n\nLooking forward to connecting with your team.\n\nBest regards,\n[Sender Name]\nLahoti Overseas Limited\nExports Division | Mumbai, India"
+    },
+    {
+      "step": 3,
+      "name": "3rd Mail - Streamlining Supply Chain & Direct Mill Pricing",
+      "subject": "Streamlining your yarn supply chain / [Company Name]",
+      "delayDays": 4,
+      "triggerCondition": "If no reply/response in 4 days after 2nd mail",
+      "bodyTemplate": "Hi [Prospect Name],\n\nFollowing up on my previous messages regarding cotton yarn and fabric sourcing from Lahoti Overseas Limited.\n\nWe are currently supporting textile mills and garment manufacturers across 40+ countries with prompt container shipments of Ring Spun, Compact, Open End, and Melange yarns at direct mill pricing.\n\nWould you be open for a quick 5-minute introductory call or WhatsApp chat this week to see if we can provide cost savings on your upcoming monthly requirements?\n\nLooking forward to hearing from you.\n\nBest regards,\n[Sender Name]\nLahoti Overseas Limited\nExports Division | Mumbai, India"
+    }
+  ],
+  "leads": [
+    {
+      "id": "lead_dhaka_01",
+      "companyName": "Apex Knits & Garments Ltd",
+      "leadName": "Tanvir Ahmed",
+      "initialEmail": "t.ahmed@apexknits-bd.com",
+      "initialPhone": "+880 1711-884920",
+      "country": "Bangladesh",
+      "status": "new_lead",
+      "currentStep": 1,
+      "createdAt": "2026-10-30T04:12:44.284Z",
+      "lastActivityAt": "2026-10-30T04:12:44.286Z",
+      "nextActionDueAt": "2026-10-30T04:42:44.286Z",
+      "crmFields": {
+        "contactPersonResponsible": "",
+        "directEmailId": "",
+        "phoneWhatsApp": "",
+        "yarnCountsFabricItems": "",
+        "approximateQuantityPerMonth": "",
+        "destinationPortCnf": "",
+        "notes": "Import sourcing inquiry received from Dhaka trade portal."
+      },
+      "emailLogs": [],
+      "callAttempts": [],
+      "history": [
+        {
+          "id": "hist_1",
+          "timestamp": "2026-10-30T04:12:44.286Z",
+          "action": "Lead Created",
+          "details": "Imported from Dhaka Textile Directory with status New Lead.",
+          "actor": "System Automation"
+        }
+      ],
+      "assignedTo": "Rohit Sharma (Exports)",
+      "isDripActive": true
+    },
+    {
+      "id": "lead_vietnam_02",
+      "companyName": "Phong Phu Textile Corp",
+      "leadName": "Nguyen Van Minh",
+      "initialEmail": "minh.nguyen@phongphutex.vn",
+      "initialPhone": "+84 90 384 1928",
+      "country": "Vietnam",
+      "status": "mail_1_sent",
+      "currentStep": 1,
+      "createdAt": "2026-10-25T04:42:44.286Z",
+      "lastActivityAt": "2026-10-25T04:42:44.286Z",
+      "nextActionDueAt": "2026-10-29T04:42:44.286Z",
+      "crmFields": {
+        "contactPersonResponsible": "",
+        "directEmailId": "",
+        "phoneWhatsApp": "",
+        "yarnCountsFabricItems": "",
+        "approximateQuantityPerMonth": "",
+        "destinationPortCnf": "",
+        "notes": "Leading denim manufacturer in Ho Chi Minh City."
+      },
+      "emailLogs": [
+        {
+          "id": "email_log_vn_1",
+          "step": 1,
+          "subject": "Quality Cotton Yarns & Fabrics for Phong Phu Textile Corp",
+          "body": "Hi Nguyen Van Minh,\nI hope this email finds you well...\n[Full 1st Email Sent]",
+          "sentAt": "2026-10-25T04:42:44.286Z",
+          "sender": "Rajesh Lahoti (Exports)",
+          "recipient": "minh.nguyen@phongphutex.vn",
+          "status": "sent"
+        }
+      ],
+      "callAttempts": [],
+      "history": [
+        {
+          "id": "hist_2a",
+          "timestamp": "2026-10-25T04:42:44.286Z",
+          "action": "Lead Created",
+          "details": "Added as New Lead",
+          "actor": "System"
+        },
+        {
+          "id": "hist_2b",
+          "timestamp": "2026-10-25T04:42:44.286Z",
+          "action": "1st Mail Sent",
+          "details": "Drip Email #1 sent. Information collection form included.",
+          "actor": "Drip Workflow Bot"
+        }
+      ],
+      "assignedTo": "Vikram Mehta (VP Sales)",
+      "isDripActive": true
+    },
+    {
+      "id": "lead_turkey_03",
+      "companyName": "Sanko Holding Tekstil A.S.",
+      "leadName": "Murat Yilmaz",
+      "initialEmail": "m.yilmaz@sankotekstil.com.tr",
+      "initialPhone": "+90 342 211 5000",
+      "country": "Turkey",
+      "status": "info_received",
+      "currentStep": 1,
+      "createdAt": "2026-10-24T04:42:44.286Z",
+      "lastActivityAt": "2026-10-30T02:42:44.286Z",
+      "nextActionDueAt": null,
+      "crmFields": {
+        "contactPersonResponsible": "Murat Yilmaz (Head of Yarn Sourcing)",
+        "directEmailId": "m.yilmaz@sankotekstil.com.tr",
+        "phoneWhatsApp": "+90 532 984 2190",
+        "yarnCountsFabricItems": "30s Combed Compact Weaving, 40s Compact",
+        "approximateQuantityPerMonth": "3 x 40FT HC (75 MT)",
+        "destinationPortCnf": "Mersin Port, Turkey",
+        "notes": "Customer replied to 1st mail. Ready for spot CNF quotation."
+      },
+      "emailLogs": [
+        {
+          "id": "email_log_tr_1",
+          "step": 1,
+          "subject": "Quality Cotton Yarns & Fabrics for Sanko Holding Tekstil A.S.",
+          "body": "Hi Murat Yilmaz,\nI hope this email finds you well...",
+          "sentAt": "2026-10-24T04:42:44.286Z",
+          "sender": "Rajesh Lahoti (Exports)",
+          "recipient": "m.yilmaz@sankotekstil.com.tr",
+          "status": "replied",
+          "repliedAt": "2026-10-30T02:42:44.286Z",
+          "replyText": "Hi Rajesh,\n\nThank you for reaching out. Here are the requested procurement details:\nContact Person Responsible Name: Murat Yilmaz (Head of Yarn Sourcing)\nDirect Email ID: m.yilmaz@sankotekstil.com.tr\nPhone No/ Whats App: +90 532 984 2190\nYarn Counts / Fabric Items you buy: 30s Combed Compact Weaving, 40s Compact\nApproximate Quantity (per month): 3 x 40FT HC (75 MT)\nRequired Destination Port (CNF): Mersin Port, Turkey\n\nPlease send spot price per kg CNF Mersin for 100% Cotton 30s Compact.\nBest regards,\nMurat",
+          "extractedFields": {
+            "contactPersonResponsible": "Murat Yilmaz (Head of Yarn Sourcing)",
+            "directEmailId": "m.yilmaz@sankotekstil.com.tr",
+            "phoneWhatsApp": "+90 532 984 2190",
+            "yarnCountsFabricItems": "30s Combed Compact Weaving, 40s Compact",
+            "approximateQuantityPerMonth": "3 x 40FT HC (75 MT)",
+            "destinationPortCnf": "Mersin Port, Turkey"
+          }
+        }
+      ],
+      "callAttempts": [],
+      "history": [
+        {
+          "id": "hist_3a",
+          "timestamp": "2026-10-24T04:42:44.286Z",
+          "action": "1st Mail Sent",
+          "details": "Sent 1st email introducing Lahoti capabilities.",
+          "actor": "Drip Workflow Bot"
+        },
+        {
+          "id": "hist_3b",
+          "timestamp": "2026-10-30T02:42:44.286Z",
+          "action": "Reply Auto-Parsed & CRM Updated",
+          "details": "Extracted 6 CRM fields: Contact, Phone, Counts (30s/40s Compact), Qty (75 MT), CNF Mersin. Status set to Information Received.",
+          "actor": "AI/NLP Parser"
+        }
+      ],
+      "assignedTo": "Amitabh Lahoti (Director)",
+      "isDripActive": false
+    },
+    {
+      "id": "lead_portugal_04",
+      "companyName": "Somelos Tecidos S.A.",
+      "leadName": "António Ferreira",
+      "initialEmail": "antonio.ferreira@somelos.pt",
+      "initialPhone": "+351 253 470 100",
+      "country": "Portugal",
+      "status": "mail_3_sent",
+      "currentStep": 3,
+      "createdAt": "2026-10-18T04:42:44.286Z",
+      "lastActivityAt": "2026-10-26T04:42:44.286Z",
+      "nextActionDueAt": "2026-10-29T18:42:44.286Z",
+      "crmFields": {
+        "contactPersonResponsible": "",
+        "directEmailId": "",
+        "phoneWhatsApp": "+351 253 470 100",
+        "yarnCountsFabricItems": "",
+        "approximateQuantityPerMonth": "",
+        "destinationPortCnf": "Leixoes Port",
+        "notes": "Premium shirting & weaving mill in Guimarães."
+      },
+      "emailLogs": [
+        {
+          "id": "email_pt_1",
+          "step": 1,
+          "subject": "Quality Cotton Yarns & Fabrics for Somelos Tecidos S.A.",
+          "body": "Hi António Ferreira,\n...",
+          "sentAt": "2026-10-18T04:42:44.286Z",
+          "sender": "Rajesh Lahoti",
+          "recipient": "antonio.ferreira@somelos.pt",
+          "status": "sent"
+        },
+        {
+          "id": "email_pt_2",
+          "step": 2,
+          "subject": "Re: Quality Cotton Yarns & Fabrics for Somelos Tecidos S.A. / Reliable Global Supply",
+          "body": "Hi António,\nI know how busy things get...",
+          "sentAt": "2026-10-22T04:42:44.286Z",
+          "sender": "Rajesh Lahoti",
+          "recipient": "antonio.ferreira@somelos.pt",
+          "status": "sent"
+        },
+        {
+          "id": "email_pt_3",
+          "step": 3,
+          "subject": "Streamlining your yarn supply chain / Somelos Tecidos S.A.",
+          "body": "Hi António,\nFollowing up on my previous messages...",
+          "sentAt": "2026-10-26T04:42:44.286Z",
+          "sender": "Rajesh Lahoti",
+          "recipient": "antonio.ferreira@somelos.pt",
+          "status": "sent"
+        }
+      ],
+      "callAttempts": [],
+      "history": [
+        {
+          "id": "hist_4a",
+          "timestamp": "2026-10-18T04:42:44.287Z",
+          "action": "1st Mail Sent",
+          "details": "Initial email sent.",
+          "actor": "System"
+        },
+        {
+          "id": "hist_4b",
+          "timestamp": "2026-10-22T04:42:44.287Z",
+          "action": "2nd Mail Sent (4-day Trigger)",
+          "details": "No response after 4 days. Follow-up email 2 sent.",
+          "actor": "Drip Engine"
+        },
+        {
+          "id": "hist_4c",
+          "timestamp": "2026-10-26T04:42:44.287Z",
+          "action": "3rd Mail Sent (4-day Trigger)",
+          "details": "No response after another 4 days. Final value email 3 sent.",
+          "actor": "Drip Engine"
+        },
+        {
+          "id": "hist_4d",
+          "timestamp": "2026-10-29T18:42:44.287Z",
+          "action": "Assigned to Sales Rep for Calling",
+          "details": "4 days elapsed after 3rd mail. Triggered Step 4: Phone call follow-up.",
+          "actor": "Workflow Engine"
+        }
+      ],
+      "assignedTo": "Rohit Sharma (Exports)",
+      "isDripActive": true
+    },
+    {
+      "id": "lead_brazil_05",
+      "companyName": "Fiacao Sao Bento Ltda",
+      "leadName": "Lucas Oliveira",
+      "initialEmail": "lucas@fiacaosaobento.com.br",
+      "initialPhone": "+55 11 98765-4321",
+      "country": "Brazil",
+      "status": "not_reachable",
+      "currentStep": 4,
+      "createdAt": "2026-10-12T04:42:44.287Z",
+      "lastActivityAt": "2026-10-29T04:42:44.287Z",
+      "nextActionDueAt": null,
+      "crmFields": {
+        "contactPersonResponsible": "Lucas Oliveira",
+        "directEmailId": "lucas@fiacaosaobento.com.br",
+        "phoneWhatsApp": "+55 11 98765-4321",
+        "yarnCountsFabricItems": "",
+        "approximateQuantityPerMonth": "",
+        "destinationPortCnf": "Santos Port",
+        "notes": "No response to 3 emails. 2 phone call attempts went unanswered."
+      },
+      "emailLogs": [
+        {
+          "id": "em_br_1",
+          "step": 1,
+          "subject": "Quality Cotton Yarns & Fabrics for Fiacao Sao Bento Ltda",
+          "body": "...",
+          "sentAt": "2026-10-12T04:42:44.287Z",
+          "sender": "Rajesh Lahoti",
+          "recipient": "lucas@fiacaosaobento.com.br",
+          "status": "sent"
+        },
+        {
+          "id": "em_br_2",
+          "step": 2,
+          "subject": "Re: Quality Cotton Yarns & Fabrics / Reliable Supply",
+          "body": "...",
+          "sentAt": "2026-10-16T04:42:44.287Z",
+          "sender": "Rajesh Lahoti",
+          "recipient": "lucas@fiacaosaobento.com.br",
+          "status": "sent"
+        },
+        {
+          "id": "em_br_3",
+          "step": 3,
+          "subject": "Streamlining your yarn supply chain / Fiacao Sao Bento Ltda",
+          "body": "...",
+          "sentAt": "2026-10-20T04:42:44.287Z",
+          "sender": "Rajesh Lahoti",
+          "recipient": "lucas@fiacaosaobento.com.br",
+          "status": "sent"
+        }
+      ],
+      "callAttempts": [
+        {
+          "id": "call_br_1",
+          "attemptNumber": 1,
+          "attemptedAt": "2026-10-27T04:42:44.287Z",
+          "callerName": "Rohit Sharma",
+          "outcome": "no_answer",
+          "notes": "Rang 6 times, went to Brazilian Portuguese automated voicemail."
+        },
+        {
+          "id": "call_br_2",
+          "attemptNumber": 2,
+          "attemptedAt": "2026-10-29T04:42:44.287Z",
+          "callerName": "Rohit Sharma",
+          "outcome": "switched_off",
+          "notes": "Number switched off / network unreachable. 2nd failed attempt."
+        }
+      ],
+      "history": [
+        {
+          "id": "hist_5a",
+          "timestamp": "2026-10-27T04:42:44.287Z",
+          "action": "Phone Call Attempt 1 Logged (Unsuccessful)",
+          "details": "Outcome: No Answer (Voicemail). Next attempt required.",
+          "actor": "Rohit Sharma"
+        },
+        {
+          "id": "hist_5b",
+          "timestamp": "2026-10-29T04:42:44.287Z",
+          "action": "Phone Call Attempt 2 Logged (Unsuccessful)",
+          "details": "Outcome: Switched Off. 2 failed attempts reached.",
+          "actor": "Rohit Sharma"
+        },
+        {
+          "id": "hist_5c",
+          "timestamp": "2026-10-29T04:42:44.287Z",
+          "action": "Status Changed to Not Reachable",
+          "details": "Automatic rule triggered: 2 consecutive failed phone calls after 3 unreplied drip emails. Drip halted.",
+          "actor": "Workflow Engine Rule"
+        }
+      ],
+      "assignedTo": "Rohit Sharma (Exports)",
+      "isDripActive": false
+    }
+  ]
+}
